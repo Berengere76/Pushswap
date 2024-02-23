@@ -45,7 +45,7 @@ int	ft_args_nb(char *argv)
 	int	i;
 
 	i = 0;
-	if (argv[0] == '-')
+	if (argv[0] == '-' && (argv[1] != '\0'))
 		i++;
 	while (argv[i])
 	{
